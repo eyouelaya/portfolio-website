@@ -1,0 +1,86 @@
+nav {
+    background: rgba(0,0,0,0.3);
+    width: max-content;
+    display: block;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2rem;
+    display: flex;
+    gap: 0.9rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+}
+
+nav a {
+    background: transparent;
+    padding: 0.9rem;
+    border-radius: 50%;
+    display: flex;
+    color: var(--color-light);
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    background: rgba(0, 0, 0, 0.3)
+}
+
+nav a.active {
+    background: var(--color-bg);
+    color: var(--color-white);
+}
+
+/*==================hover texts ============================*/
+
+.hover-text:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    padding: 4px; 
+    background-color: rgba(63, 39, 94, 0.3);
+    color: var(--color-primary);
+    text-align: center;
+    border-radius: 2px;
+    font-size: 0.8rem;
+    transition: opacity 1s ease-in-out;
+    position: absolute;
+    
+
+}
+
+.hover-text:hover:before{
+    opacity: 1;
+    visibility: visible;
+}
+
+.hover-text-home:before {
+    z-index: 1;
+    left: 18%;
+    top: 80%;
+}
+
+.hover-text-about:before {
+    z-index: 1;
+    left: 35%;
+    top: 80%;
+}
+
+.hover-text-contact:before {
+    z-index: 1;
+    left: 52%;
+    top: 80%;
+}
+
+.hover-text-experience:before {
+    z-index: 1;
+    left: 70%;
+    top: 80%;
+}
+
+.hover-text-portfolio:before {
+    z-index: 1;
+    left: 88%;
+    top: 80%;
+}
