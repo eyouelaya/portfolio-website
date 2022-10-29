@@ -44,12 +44,6 @@
     color: var(--color-primary); 
 }
 
-/*
-.experience__details-icon {
-    margin-top: 6px;
-    color: var(--color-primary); 
-}
-*/
 /* ============= media queries - medium devices =============== */
 
 @media screen and (max-width: 1024px) {
