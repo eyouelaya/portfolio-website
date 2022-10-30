@@ -8,7 +8,7 @@ export const Experience = () => {
       <h2>My Experience</h2>
       <div className='container experience__container'>
         <div className="experience__skills">
-            <h3>Skills</h3>
+            <h4>Skills</h4>
             <div className="experience__content">
               <article className='experience__details'>
                 <div className='experience__details-div'>
@@ -54,7 +54,7 @@ export const Experience = () => {
             </div>
         </div>
         <div className="experience__tools">
-        <h3>Languages/Frameworks</h3>
+        <h4>Languages/Frameworks</h4>
             <div className="experience__content">
               <article className='experience__details'>
                 <div className='experience__details-div'>
