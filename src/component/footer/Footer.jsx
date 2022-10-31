@@ -22,7 +22,7 @@ export const Footer = () => {
           </div>
 
           <div className='footer__copyright'>
-            <small>&copy Eyouel Kenfu. All rights reserved</small>
+            <small>&copy; Eyouel Kenfu. All rights reserved</small>
           </div>
     </footer>
   )
