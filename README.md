@@ -1,26 +1,48 @@
-# Getting Started with Create React App
+# Getting Started with app
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
-In the project directory, you can run:
+Make sure you have node js, git and docker installed
 
-### `npm start`
+Clone the repository
+```
+git clone https://github.com/eyouelaya/portfolio-website.git
+```
 
+Go into the project directory and install dependancies
+```
+npm install
+```
+Start the nps server to view webpage
+```
+npm start
+```
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Build the Docker image for the current folder and tag it with `dockerized-react`
+```
+docker build . -t dockerized-react
+```
+Check the image was created
+```
+docker images | grep dockerized-react
+```
 
-### `npm test`
+Run the image in detached mode and map port 3000 inside the container with 3000 on current host
+```
+docker run -p 3000:3000 -d dockerized-react
+```
+
+
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
+```
+npm run build
+```
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
