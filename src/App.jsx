@@ -6,7 +6,6 @@ import {About} from './component/about/About'
 import {Contact} from './component/contact/Contact'
 import {Experience} from './component/experience/Experience'
 import {Portfolio} from './component/portfolio/Portfolio'
-import {Testimonials} from './component/testimonials/Testimonials'
 
 
 
@@ -22,7 +21,6 @@ export const App = () => {
         <Contact />
         <Experience />
         <Portfolio />
-        <Testimonials />
       </>  
    
 
