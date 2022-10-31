@@ -49,7 +49,7 @@ header {
     transform:translateX(-50%);
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
 }
 
 /* ============= scroll ============= */
@@ -61,6 +61,10 @@ header {
     transform: rotate(90deg);
     font-weight: 300;
     font-size: 1.3rem;
+}
+
+.scroll__down:hover{
+    text-decoration: none;
 }
 
 /* ============= media queries - medium devices =============== */
