@@ -1,7 +1,7 @@
 {
   "name": "client",
   "version": "0.1.0",
-  "homepage": "https://eyouelaya.github.io/portfolio-website/",
+  "homepage": "https://eyouelaya.github.io/portfolio-website",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
