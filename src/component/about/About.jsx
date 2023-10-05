@@ -15,7 +15,7 @@ export const About = () => {
           </div>
         </div>
         <div className="about__content">
-          <p>Currently pursuing my Master's degree in Computer Science, I'm also an experienced as Risk Prevention Market Data Specialist at META (Facebook). Through this role, I've cultivated strong problem-solving, critical thinking, software development, partner management, and leadership skills. Armed with a Bachelor's degree in Computer Science and proficiency in languages and frameworks like SQL, Java, Spring-boot, Python, Javascript and React JS, I'm enthusiastic about transitioning to a software engineering roles. </p>
+          <p>Currently pursuing my Master's degree in Computer Science, I'm have an experience as Risk Prevention Market Data Specialist at META (Facebook). Through this role, I've cultivated strong problem-solving, critical thinking, software development, partner management, and leadership skills. Armed with a Bachelor's degree in Computer Science and proficiency in languages and frameworks like SQL, Java, Spring-boot, Python, Javascript and React JS, I'm enthusiastic about transitioning to a software engineering roles. </p>
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>
